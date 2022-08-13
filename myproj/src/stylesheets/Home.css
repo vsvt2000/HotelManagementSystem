@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+.top{
+    
+    background-color:#94B49F;
+    font-family: 'Righteous', cursive;
+
+}
 .navbar{
     display:flex;
     background-color: #FCF8E8;
@@ -10,7 +17,4 @@
     height:15%;
 }
 
-.content{
-    background-color:#94B49F;
-   
-}
+
