@@ -1,0 +1,16 @@
+.navbar{
+    display:flex;
+    background-color: #FCF8E8;
+}
+
+.logo{
+    float: left;
+    margin: 2% 2% 2% 2%;
+    width:15%;
+    height:15%;
+}
+
+.content{
+    background-color:#94B49F;
+   
+}
