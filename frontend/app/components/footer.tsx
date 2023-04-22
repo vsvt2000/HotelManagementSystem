@@ -3,12 +3,17 @@ import FooterButton from "./footer/button";
 
 function Footer() {
   return (
-    <div>
-      <div>Copyright</div>
-      <div className="flex space-x-2">
-        <div><FooterButton/>Contact</div>
-        <div><FooterButton/></div>
-        <div><FooterButton/></div>
+    <div className="p-4 ">
+      <div className="flex space-x-2 ">
+        <div>
+          <FooterButton type="linkedIn" />
+        </div>
+        <div>
+          <FooterButton type="mail" />
+        </div>
+      </div>
+      <div>
+        <p className="text-xs">Copyright. All rights Reserved</p>
       </div>
     </div>
   );

@@ -3,16 +3,17 @@ import HeaderButton from "./header/button";
 
 function Header() {
   return (
-    <div className="flex justify-between">
-      <div>Logo</div>
+    <div className="flex justify-between border-2 border-[#A4BC92] p-4 items-center">
       <div>
-        <div className="flex space-x-2">
-          <HeaderButton />
-          <HeaderButton />
+        <p className="text-6xl">&#127808;</p>
+      </div>
+      <div>
+        <div className="flex space-x-12">
+          <HeaderButton label="Rooms" className="font-medium" />
 
-          <HeaderButton />
+          <HeaderButton label="Status" className="font-medium" />
 
-          <HeaderButton />
+          <HeaderButton label="Login" className="font-medium" />
         </div>
       </div>
     </div>
